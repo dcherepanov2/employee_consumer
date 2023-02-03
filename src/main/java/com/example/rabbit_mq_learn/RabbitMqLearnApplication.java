@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
 @Import(RabbitConfiguration.class)
-public class RabbitMqLearnApplication {//
+public class RabbitMqLearnApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RabbitMqLearnApplication.class, args);
